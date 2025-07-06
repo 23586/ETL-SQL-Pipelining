@@ -1,0 +1,20 @@
+name: 't5_project'
+version: '1.0.0'
+
+profile: 't5_project'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  view:   
+    +schema: view          
+    +materialized: table  

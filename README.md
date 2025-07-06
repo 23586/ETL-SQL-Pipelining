@@ -38,6 +38,7 @@ This project follows the **Medallion Architecture**, a layered data modeling str
 
 ### Path for Queries
 Project/
+
 ├── models/
 
 │ ├── bronze/
